@@ -62,6 +62,7 @@ This script demonstrates a step-by-step approach to automate web scraping while 
 - You can customize the user-agent string to mimic different web browsers or devices by modifying the `headers` dictionary.
 - The script can be further extended to handle different CAPTCHA types and form submissions.
 
+```
 ##Reason for Using Tesseract:**
 
 -Tesseract OCR (Optical Character Recognition) was chosen because it provides a reliable, open-source, and platform-agnostic solution for converting CAPTCHA images into text. This choice aligns with the script's -requirement to avoid using external captcha-solving services and ensures the script can run independently on various systems while delivering accurate text extraction from images.
